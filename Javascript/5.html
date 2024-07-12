@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reset Event</title>
+</head>
+<body>
+
+<form id="myForm" onreset="handleFormReset()">
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
+<script>
+    // Function to handle form reset event
+    function handleFormReset() {
+        console.log('Form has been reset');
+    }
+</script>
+
+</body>
+</html>
